@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Large binary files (use Git LFS for these)
+# Uncomment if NOT using Git LFS:
+# *.mp4
+# *.mp3
+# *.wav
+# *.psd
+# *.ai
+
+# Build artifacts
+node_modules/
+__pycache__/
+*.pyc
+
+# Sensitive/personal
+*.env
+credentials/
+private/
+
+# Temporary
+tmp/
+*.tmp
